@@ -13,10 +13,3 @@ Plans your perfect trip using multi-agent architecture and real-time Gemini 2.0 
 - `.env` API key loading with `python-dotenv`
 - Mock tools for flight and hotel data
 
-## 🔧 Setup
-
-### 1. Clone the Repo
-
-```bash
-git clone https://your-repo-url
-cd ai_travel_designer
