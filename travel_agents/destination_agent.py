@@ -1,8 +1,8 @@
 from agents import Agent
 
-class DestinationAgent(Agent):
-    def __init__(self, model):
-        super().__init__(
-            name="DestinationAgent",
-            instructions="You suggest travel destinations based on user preferences."
-        )
+destination_agent = Agent(
+    name="DestinationAgent",
+    instructions="Suggest travel destinations based on the user's mood or interests.",
+    model=None,
+    handoffs=[]
+)
